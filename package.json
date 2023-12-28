@@ -1,0 +1,10 @@
+{
+    "name": "react-laravel",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "concurrently \"php artisan serve\" \"yarn workspace client dev\"",
+        "build": "vite build"
+    },
+    "workspaces": ["client"]
+}
